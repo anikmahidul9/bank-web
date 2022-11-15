@@ -7,25 +7,56 @@
     
     <title>My Bank</title>
 
-    <!-- Latest compiled and minified CSS -->
     
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="login-area">
+   <div id="area" class="login-area">
     <div class="text-center"><h1>Welcome to My Bank</h1></div>
     <div class="submit-area">
       <div class="input-form">
          
          <input placeholder="Username" type="text" required="">
          <input placeholder="Password" type="password" required="">
+         <button id="enter" class="button">Enter</button>
       </div>
-        <div class="btn">
-          <button>Enter</button>
-         </div>
+       
+        
     </div>
    </div>
+   <div id="transection-area">
+      
+
+         <div class="container">
+            <div class="box-1"><h5>Deposit</h5>
+            <h2>$ <span id="cd">000</span></h2></div>
+            <div class="box-2"><h5>Withdraw</h5>
+               <h2>$ <span id="withdrawb">000</span> </h2></div>
+            <div class="box-3"><h5>Balance</h5>
+               <h2>$ <span id="balance">1000</span></h2></div>
+         </div>
+         <div class="dep-with">
+             <div class="deposit">
+               <h1>Deposit</h1>
+               <input id="da" type="text" >
+               <button id="btn" class="button dw">Deposit</button>
+             </div>
+             <div class="withdraw">
+               <h1>Withdraw</h1>
+               <input id="wa" type="text">
+               <button id="wbutton" class="button dw">Withdraw</button>
+             </div>
+         </div>
+
+      
+     
+   </div>
+
+
+<script src="script.js">
+   
+</script>
 
    <link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
    <!-- CSS only -->
